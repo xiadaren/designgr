@@ -1,0 +1,99 @@
+body{
+    padding: 0%;
+    margin: 0;
+    background-color: rgb(68, 69, 69);
+}
+div{
+    /* text-align: center; */
+    border-radius: 30px;
+}
+.da1, .da2, .da3, .da4, .da5, .da6{
+    display: flex; /* 使用flex布局 */
+    align-items: center; /* 垂直居中 */
+    justify-content: center; /*水平居中 */
+    background-color: rgba(252, 252, 252, 0.691);
+    font-size: 20px;
+}
+.da4, .da5, .da6{
+    border-radius: 100pt;
+    transition: transform 0.5s ease; /* 添加过渡效果 */
+}
+.da4:hover, .da5:hover, .da6:hover{
+    transform: scale(1.3);
+}
+
+#zuiwai{
+    background-image: url(cx2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*外面第二层*/
+.day1{
+    width: 1200px;
+    height: 400px;
+    padding:0 10px;
+    /* background-color: azure; */
+    
+}
+.day2{
+    width: 1200px;
+    height: 400px;
+    /* background-color: rgb(124, 222, 222); */
+}
+.da1{
+    display: block;
+    width: 350px;
+    height: 380px;
+    transition: transform 0.3s ease;
+    float: left;
+}
+.da1:hover{
+    transform: scale(1.1);
+    margin-top: 20px;
+}
+/* 那个世界的大门 */
+.da2{
+    width: 300px;
+    height: 200px;
+    margin: 100px 150px;
+    border-radius: 30px;
+    font-size: 30px;
+    float: left;
+    transition: transform 0.3s ease;
+}
+.da2:hover{
+    transform:scale(1.2);
+    background-color: black;
+    color: white;
+}
+/*时间*/
+.da3{
+    width: 220px;
+    height: 250px;
+    margin: 0 10px;
+    float: left;
+    display: block;
+    /* background-color: aqua; */
+}
+.da4{
+    width: 250px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 100px;
+    float: left;
+    /* background-color: antiquewhite; */
+}
+.da5{
+    width: 250px;
+    height: 200px;
+    margin: 0 140px;
+    margin-top: 100px;
+    float: left;
+    /* background-color: antiquewhite; */
+}
+.da6{
+    width: 250px;
+    height: 200px;
+    margin-top: 100px;
+    float: left;
+}
